@@ -6,7 +6,7 @@ import Image from 'next/image'
 
 function Card({image,title,projectUrl,repositoryUrl,techStacks}) {
 
-
+console.log(repositoryUrl);
   const projectRedirect = ()=>{
     window.location.href = projectUrl;
   }
