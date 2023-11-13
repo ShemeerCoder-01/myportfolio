@@ -8,7 +8,6 @@ import Image from 'next/image'
 
 
 function Project() {
-  console.log(process.env.COINWATCHR_REPO);
 
   return (
     <div className='pt-10 mt-12'>

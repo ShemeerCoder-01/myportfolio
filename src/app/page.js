@@ -9,6 +9,7 @@ import Contact from '../Components/Contact';
 import BacktoTop from '../Components/common/BackToTop';
 
 export default function Home() {
+  
   return (
    <div>
      <Header/>
