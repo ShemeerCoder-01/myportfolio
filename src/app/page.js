@@ -1,5 +1,4 @@
 'use Client'
-import Image from 'next/image'
 import Header from '../Components/common/Header'
 import Footer from '../Components/common/Footer'
 import AboutMe from '../Components/AboutMe';
