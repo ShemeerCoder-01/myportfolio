@@ -12,7 +12,7 @@ function Skills() {
       <div className="flex flex-col items-start">
         <h2 className="heading text-xl font-medium mt-6">Languages & frameworks / Libraries :</h2>
         <div className="flex flex-wrap justify-center gap-4">
-          <div className="flex items-center gap-8 justify-around px-4 my-2">
+          <div className="flex items-center gap-8 justify-around px-4 my-2"> 
             <FaReact className="text-4xl m-2" />
             <ProgressBar value={88} />
             <span style={{color:'var(--black)'}}>8.8 / 10</span>
