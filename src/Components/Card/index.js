@@ -1,7 +1,6 @@
 "use client"
 import React from 'react'
 import './style.css'
-import Image from 'next/image'
 
 
 function Card({image,title,projectUrl,repositoryUrl,techStacks}) {
