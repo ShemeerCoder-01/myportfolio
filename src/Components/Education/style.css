@@ -1,0 +1,5 @@
+.edu{
+    border: 1px solid var(--grey);
+    box-shadow: 2px 2px 4px 4px var(--lightblack);
+}
+

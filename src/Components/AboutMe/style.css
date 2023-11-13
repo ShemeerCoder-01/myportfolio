@@ -1,0 +1,11 @@
+.aboutSection{
+    margin:0 10%;
+}
+.imgArea .img{
+    border-radius: 37% 68% 74% 62% / 24% 13% 98% 98%;
+}
+
+.role{
+    color: var(--darkgrey);
+}
+

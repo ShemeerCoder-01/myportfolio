@@ -1,0 +1,13 @@
+.upwardIcon{
+    display: "flex";
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 1.5rem;
+    bottom: 2.5rem;
+    cursor: pointer;
+    border: 1px solid var(--black);
+    color: var(--navy);
+    border-radius: 50%;
+    padding: 0.25rem;
+}

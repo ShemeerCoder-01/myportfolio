@@ -1,0 +1,20 @@
+/* .header{
+    background: linear-gradient(90deg, var(--darkblue) 0%, var(--navy) 49%);
+}
+.header h1{
+    color: var(--black);
+}
+
+.header-links p{
+    color: var(--grey);
+}
+.sun{
+    fill: var(--white) !important;
+}
+.moon{
+    fill: var(--white) !important;
+}
+.moon:hover,.sun:hover{
+    fill: var(--black) !important;
+}
+ */
