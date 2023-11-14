@@ -19,6 +19,7 @@ function AboutMe() {
       <div className="rightArea">
         <div className="imgArea">
           <Avatar
+          sx={{width:"300px",height:"300px"}}
             alt="MyPhoto"
             src="/myphoto.jpg"
             className="img w-60 h-60 lg:w-72 lg:h-72"
