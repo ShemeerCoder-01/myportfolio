@@ -55,7 +55,7 @@ html{
 /* header css */
 
 .header{
-    background: linear-gradient(90deg, var(--darkblue) 0%, var(--navy) 49%);
+    background: linear-gradient(36deg, var(--darkblue) 1%, var(--navy) 33%);
 }
 .header h1{
     color: var(--black);

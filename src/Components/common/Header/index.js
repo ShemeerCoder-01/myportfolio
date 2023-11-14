@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 // import './style.css'
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
+import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 
 function Header() {
     const [theme,setTheme] = useState('');
@@ -66,16 +67,20 @@ function Header() {
     }
   
     return (
-      <div className='header flex justify-around items-center px-2 py-8'>
+      <div className='header flex lg:justify-around justify-between items-center px-2 py-8'>
         <h1 className='text-2xl font-semibold cursor-pointer'>Shemeer.</h1>
-        <div className='header-links flex gap-4 items-center'>
+        <div className='header-links hidden lg:flex gap-4 lg:items-center'>
           <p className='cursor-pointer font-medium' onClick={() => scrollFunction("Education")}>Education</p>
           <p className='cursor-pointer font-medium' onClick={() => scrollFunction("Skills")}>Skills</p>
           <p className='cursor-pointer font-medium' onClick={() => scrollFunction("Projects")}>Projects</p>
           <p className='cursor-pointer font-medium' onClick={() => scrollFunction("Contact")}>Contact</p>
         </div>
+        <div className='flex gap-3 mr-1'>
         {theme === 'light' ? <WbSunnyOutlinedIcon onClick={() => handleClick()} className='sun' /> : <DarkModeOutlinedIcon onClick={() => handleClick()} className="moon" />}
-  
+        <div className='flex lg:hidden'>
+          <MenuRoundedIcon style={{color:'var(--grey)'}}/>
+        </div>
+        </div>
       </div>
     )
   }

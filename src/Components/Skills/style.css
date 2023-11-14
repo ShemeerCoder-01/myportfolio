@@ -2,3 +2,10 @@
     margin-left: 16% !important;
 }
 
+
+@media screen and (max-width:640px) {
+    .heading{
+        margin-left:0 !important;
+    }
+    
+}

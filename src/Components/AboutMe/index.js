@@ -7,11 +7,11 @@ import Button from "../common/Button";
 
 function AboutMe() {
   return (
-    <div className="aboutSection flex gap-10 justify-center pt-20 m-2 mx-8">
+    <div className="aboutSection w-full flex items-center lg:flex-row gap-8 lg:gap-10 lg:justify-center pt-20 pl-4">
       <div className="w-2/5">
-        <h1 className="font-semibold text-3xl">Hi...I am Shemeer</h1>
-        <h3 className="role font-bold text-l mt-4">FrontEnd Developer / Web Developer</h3>
-        <p className="text-justify leading-normal text-base mt-6 my-6">
+        <h1 className="font-medium w-full lg:font-semibold text-lg lg:text-3xl">Hi...I am Shemeer</h1>
+        <h3 className="role font-normal lg:font-bold text-sm lg:text-xl mt-4">FrontEnd Developer / Web Developer</h3>
+        <p className="text-justify leading-tights lg:leading-normal text-xs lg:text-base mt-3 lg:mt-6 my-3 lg:my-6">
           Hello and welcome to my portfolio! I&apos;m an enthusiastic Frontend Developer located in India, committed to designing captivating and dynamic web experiences. My focus centers around creating user-friendly interfaces that seamlessly merge
           aesthetics with functionality.</p>
         <Button />
@@ -19,10 +19,9 @@ function AboutMe() {
       <div className="rightArea">
         <div className="imgArea">
           <Avatar
-            sx={{ width: "300px", height: "300px" }}
             alt="MyPhoto"
             src="/myphoto.jpg"
-            className="img"
+            className="img w-48 h-60 lg:w-72 lg:h-72"
           />
         </div>
       </div>
