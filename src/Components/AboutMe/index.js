@@ -7,7 +7,7 @@ import Button from "../common/Button";
 
 function AboutMe() {
   return (
-    <div className="aboutSection w-full flex items-center lg:flex-row gap-8 lg:gap-10 lg:justify-center pt-20 pl-4">
+    <div className="aboutSection flex items-center lg:flex-row gap-8 lg:gap-10 lg:justify-center pt-20 pl-4">
       <div className="w-2/5">
         <h1 className="font-medium w-full lg:font-semibold text-lg lg:text-3xl">Hi...I am Shemeer</h1>
         <h3 className="role font-normal lg:font-bold text-sm lg:text-xl mt-4">FrontEnd Developer / Web Developer</h3>
@@ -21,7 +21,7 @@ function AboutMe() {
           <Avatar
             alt="MyPhoto"
             src="/myphoto.jpg"
-            className="img w-48 h-60 lg:w-72 lg:h-72"
+            className="img w-60 h-60 lg:w-72 lg:h-72"
           />
         </div>
       </div>
