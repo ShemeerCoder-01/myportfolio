@@ -4,6 +4,17 @@
 .imgArea .img{
     border-radius: 37% 68% 74% 62% / 24% 13% 98% 98%;
 }
+img{
+    width: 350px !important;
+    height: 350px !important;
+}
+ @media screen and(min-width:640px) {
+    img{
+        width: 250px !important;
+        height: 250px !important;
+    }
+    
+ }
 
 .role{
     color: var(--darkgrey);

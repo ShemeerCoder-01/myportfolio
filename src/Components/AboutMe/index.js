@@ -16,8 +16,8 @@ function AboutMe() {
           aesthetics with functionality.</p>
         <Button />
       </div>
-      <div className="rightArea">
-        <div className="imgArea w-3/5">
+      <div className="rightArea w-3/5">
+        <div className="imgArea w-full">
           <Avatar
           // sx={{width:"300px",height:"300px"}}
             alt="MyPhoto"
