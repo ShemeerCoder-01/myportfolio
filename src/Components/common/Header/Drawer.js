@@ -6,20 +6,20 @@ function Drawer({handleDrawer}) {
     const scrollFunction = (tab) => {
         switch (tab) {
           case "Education":
-            document.body.scrollBy(0,630)
-            document.documentElement.scrollBy(0,630);
+            document.body.scrollBy(0,590)
+            document.documentElement.scrollBy(0,590);
             break;
           case "Skills":
-            document.body.scrollBy(0,1130)
-            document.documentElement.scrollBy(0,1130)
+            document.body.scrollBy(0,1090)
+            document.documentElement.scrollBy(0,1090)
             break;
           case "Projects":
-            document.body.scrollBy(0,1880)
-            document.documentElement.scrollBy(0,1880)
+            document.body.scrollBy(0,1830)
+            document.documentElement.scrollBy(0,1830)
             break;
           case "Contact":
-            document.body.scrollBy(0,3350)
-            document.documentElement.scrollBy(0,3350)
+            document.body.scrollBy(0,3300)
+            document.documentElement.scrollBy(0,3300)
             break;
           default:
             document.body.scrollTop = 0;

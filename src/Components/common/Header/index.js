@@ -72,7 +72,7 @@ function Header() {
   
     return (
       <>
-        <div className='header flex lg:justify-around justify-between items-center px-2 py-8'>
+        <div className='header w-screen flex lg:w-full lg:justify-around justify-between items-center px-2 py-8'>
           <h1 className='text-2xl font-semibold cursor-pointer text-black'>Shemeer.</h1>
           <div className='header-links hidden lg:flex gap-4 lg:items-center'>
             <p className='cursor-pointer font-medium text-grey' onClick={() => scrollFunction("Education")}>Education</p>

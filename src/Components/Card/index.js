@@ -1,6 +1,5 @@
 "use client"
 import React from 'react'
-import './style.css'
 
 
 function Card({image,title,projectUrl,repositoryUrl,techStacks}) {
@@ -14,7 +13,7 @@ function Card({image,title,projectUrl,repositoryUrl,techStacks}) {
   }
 
   return (
-    <div className='card-container flex flex-col rounded-2xl p-4'>
+    <div className='card-container flex flex-col rounded-2xl p-4 border border-solid border-black w-80'>
         <img onClick={projectRedirect} src={image.props.src.src} className='object-cover h-52 rounded-2xl' alt='img'/>
         <h1 onClick={redirectToRepository} className='text-2xl font-medium mt-2'>{title}</h1>
         <h2 className='text-xl font-normal mt-4 ml-2'>Tech Stacks : </h2>

@@ -12,33 +12,33 @@ function Skills() {
       <div className="flex flex-col items-start">
         <h2 className="heading text-xl font-medium mt-6 pl-4">Languages & frameworks / Libraries :</h2>
         <div className="flex flex-wrap justify-center gap-4">
-          <div className="flex items-center gap-8 justify-around px-4 my-2"> 
-            <FaReact className="text-4xl m-2" />
+          <div className="flex items-center gap-8 justify-around px-2 lg:px-4 my-2"> 
+            <FaReact className="text-2xl lg:text-4xl m-2" />
             <ProgressBar value={88} />
             <span style={{color:'var(--black)'}}>8.8 / 10</span>
           </div>
-          <div className="flex items-center gap-8 justify-around px-4 my-2">
-            <JavascriptRoundedIcon className="text-4xl m-2"/>
+          <div className="flex items-center gap-8 justify-around px-2 lg:px-4 my-2">
+            <JavascriptRoundedIcon className="text-2xl lg:text-4xl m-2"/>
             <ProgressBar value={88} />
             <span style={{color:'var(--black)'}}>8.8 / 10</span>
           </div>
-          <div className="flex items-center gap-8 justify-around px-4 my-2">
-            <FaHtml5 className="text-4xl m-2"/>
+          <div className="flex items-center gap-8 justify-around px-2 lg:px-4 my-2">
+            <FaHtml5 className="text-2xl lg:text-4xl m-2"/>
             <ProgressBar value={80} />
             <span style={{color:'var(--black)'}}>8.0 / 10</span>
           </div>
-          <div className="flex items-center gap-8 justify-around px-4 my-2">
-            <FaCss3 className="text-4xl m-2"/>
+          <div className="flex items-center gap-8 justify-around px-2 lg:px-4 my-2">
+            <FaCss3 className="text-2xl lg:text-4xl m-2"/>
             <ProgressBar value={82} />
             <span style={{color:'var(--black)'}}>8.2 / 10</span>
           </div>
-          <div className="flex items-center gap-8 justify-around px-4 my-2">
-            <FaNodeJs className="text-4xl m-2"/>
+          <div className="flex items-center gap-8 justify-around px-2 lg:px-4 my-2">
+            <FaNodeJs className="text-2xl lg:text-4xl m-2"/>
             <ProgressBar value={78} />
             <span style={{color:'var(--black)'}}>7.8 / 10</span>
           </div>
-          <div className="flex items-center gap-8 justify-around px-4 my-2">
-            <FaJava className="text-4xl m-2"/>
+          <div className="flex items-center gap-8 justify-around px-2 lg:px-4 my-2">
+            <FaJava className="text-2xl lg:text-4xl m-2"/>
             <ProgressBar value={70} />
             <span style={{color:'var(--black)'}}>7.0 / 10</span>
           </div>

@@ -21,6 +21,7 @@ module.exports = {
         white:'var(--white)',
         navy:'var(--navy)',
         grey:'var(--grey)',
+        darkgrey:'var(--darkgrey)',
 
       },
     },

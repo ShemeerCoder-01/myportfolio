@@ -15,7 +15,7 @@ export default function ProgressBar({value}) {
         '& .MuiLinearProgress-bar1Determinate':{
         background:"#1B3369",
        },
-      }} variant="determinate" value={value} className='rounded-lg w-40 lg:w-60 h-1.5' />
+      }} variant="determinate" value={value} className='rounded-lg w-36 h-1 lg:w-60 h-1.5' />
     </div>
   );
 }

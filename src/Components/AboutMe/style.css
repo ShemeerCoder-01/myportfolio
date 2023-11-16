@@ -7,9 +7,6 @@
     height: 300px;
 }
 
-.role{
-    color: var(--darkgrey);
-}
 
 @media screen and (max-width:640px) {
     .img{
