@@ -26,6 +26,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: var(--white);
   color: var(--black);
+  overflow-x: hidden !important;
 }
 
 code {
@@ -56,22 +57,6 @@ html{
 
 .header{
     background: linear-gradient(36deg, var(--darkblue) 1%, var(--navy) 33%);
-}
-.header h1{
-    color: var(--black);
-}
-
-.header-links p{
-    color: var(--grey);
-}
-.sun{
-    fill: var(--white) !important;
-}
-.moon{
-    fill: var(--white) !important;
-}
-.moon:hover,.sun:hover{
-    fill: var(--black) !important;
 }
 
 /* footer css */

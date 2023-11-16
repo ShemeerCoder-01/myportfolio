@@ -1,12 +1,13 @@
 "use client"
 import React, { useEffect, useState } from 'react'
-// import './style.css'
+import Drawer from './Drawer';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
 import WbSunnyOutlinedIcon from '@mui/icons-material/WbSunnyOutlined';
 import MenuRoundedIcon from '@mui/icons-material/MenuRounded';
 
 function Header() {
     const [theme,setTheme] = useState('');
+    const [isDrawerOpen,setIsDrawerOpen] = useState(false);
   
     useEffect(()=>{
       let themeColor = localStorage.getItem('themer');
@@ -41,6 +42,9 @@ function Header() {
         }
       }
     }
+    const handleDrawer = () => {
+      setIsDrawerOpen(prevState => !prevState);
+    }
   
     const scrollFunction = (tab) => {
       switch (tab) {
@@ -67,21 +71,24 @@ function Header() {
     }
   
     return (
-      <div className='header flex lg:justify-around justify-between items-center px-2 py-8'>
-        <h1 className='text-2xl font-semibold cursor-pointer'>Shemeer.</h1>
-        <div className='header-links hidden lg:flex gap-4 lg:items-center'>
-          <p className='cursor-pointer font-medium' onClick={() => scrollFunction("Education")}>Education</p>
-          <p className='cursor-pointer font-medium' onClick={() => scrollFunction("Skills")}>Skills</p>
-          <p className='cursor-pointer font-medium' onClick={() => scrollFunction("Projects")}>Projects</p>
-          <p className='cursor-pointer font-medium' onClick={() => scrollFunction("Contact")}>Contact</p>
+      <>
+        <div className='header flex lg:justify-around justify-between items-center px-2 py-8'>
+          <h1 className='text-2xl font-semibold cursor-pointer text-black'>Shemeer.</h1>
+          <div className='header-links hidden lg:flex gap-4 lg:items-center'>
+            <p className='cursor-pointer font-medium text-grey' onClick={() => scrollFunction("Education")}>Education</p>
+            <p className='cursor-pointer font-medium text-grey' onClick={() => scrollFunction("Skills")}>Skills</p>
+            <p className='cursor-pointer font-medium text-grey' onClick={() => scrollFunction("Projects")}>Projects</p>
+            <p className='cursor-pointer font-medium text-grey' onClick={() => scrollFunction("Contact")}>Contact</p>
+          </div>
+          <div className='flex gap-3 mr-1'>
+          {theme === 'light' ? <WbSunnyOutlinedIcon onClick={() => handleClick()} className='text-white hover:text-black' /> : <DarkModeOutlinedIcon onClick={() => handleClick()} className="text-white hover:text-black" />}
+          <div className='flex lg:hidden'>
+            <MenuRoundedIcon style={{color:'var(--grey)'}} onClick={handleDrawer}/>
+          </div>
+          </div>
         </div>
-        <div className='flex gap-3 mr-1'>
-        {theme === 'light' ? <WbSunnyOutlinedIcon onClick={() => handleClick()} className='sun' /> : <DarkModeOutlinedIcon onClick={() => handleClick()} className="moon" />}
-        <div className='flex lg:hidden'>
-          <MenuRoundedIcon style={{color:'var(--grey)'}}/>
-        </div>
-        </div>
-      </div>
+        {isDrawerOpen && <Drawer handleDrawer={handleDrawer}/>}
+      </>
     )
   }
   

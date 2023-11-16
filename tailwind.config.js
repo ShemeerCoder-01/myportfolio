@@ -15,7 +15,14 @@ module.exports = {
       animation:['motion-safe'],
       screens:{
         'lg':{min:'640px'}
-      }
+      },
+      colors:{
+        black:'var(--black)',
+        white:'var(--white)',
+        navy:'var(--navy)',
+        grey:'var(--grey)',
+
+      },
     },
   },
   plugins: [],
