@@ -22,9 +22,9 @@ function Button() {
   return (
     <div className='button' onClick={contactMe}>
       {state?(<a className='no-underline' href={'tel:+918891640607'}>
-        <button className='flex gap-2 justify-start items-center border-none outline-none font-medium lg:font-semibold text-sm lg:text-lg px-3 lg:px-4 py-2 lg:py-3 rounded-lg cursor-pointer min-w-max bg-navy text-black'>Contact Me <SendRoundedIcon className='text-lg text-white'/></button>
+        <button className='flex gap-2 justify-start items-center border-none outline-none font-medium lg:font-semibold text-sm lg:text-lg px-3 lg:px-4 py-2 lg:py-3 rounded-lg cursor-pointer min-w-max bg-navy text-black hover:text-white'>Contact Me <SendRoundedIcon className='text-lg text-white hover:text-black'/></button>
       </a>):(<a className='no-underline' href={'mailto:shameerbem@gmail.com'}> 
-        <button className='flex gap-2 justify-start items-center border-none outline-none font-medium lg:font-semibold text-sm lg:text-lg px-3 lg:px-4 py-2 lg:py-3 rounded-lg cursor-pointer min-w-max bg-navy text-black'>Contact Me <SendRoundedIcon className='text-lg text-white'/></button>
+        <button className='flex gap-2 justify-start items-center border-none outline-none font-medium lg:font-semibold text-sm lg:text-lg px-3 lg:px-4 py-2 lg:py-3 rounded-lg cursor-pointer min-w-max bg-navy text-black hover:text-white'>Contact Me <SendRoundedIcon className='text-lg text-white hover:text-black'/></button>
       </a>)}
         
     </div>

@@ -21,19 +21,19 @@ function Footer() {
       </h2>
       <div className="flex justify-end items-center gap-4">
         <a href="https://facebook.com">
-          <FacebookIcon className="social-link text-white text-lg lg:text-3xl" />
+          <FacebookIcon className="social-link text-white text-sm lg:text-3xl" />
         </a>
         <a href="mailto:shameerbem@gmail.com">
-          <EmailIcon className="social-link text-white text-lg lg:text-3xl" />
+          <EmailIcon className="social-link text-white text-sm lg:text-3xl" />
         </a>
         <a href="https://www.twitter.com">
-          <TwitterIcon className="social-link text-white text-lg lg:text-3xl" />
+          <TwitterIcon className="social-link text-white text-sm lg:text-3xl" />
         </a>
         <a href="https://www.instagram.com">
-          <InstagramIcon className="social-link text-white text-lg lg:text-3xl" />
+          <InstagramIcon className="social-link text-white text-sm lg:text-3xl" />
         </a>
         <a href="https://github.com/ShemeerCoder-01">
-          <GitHubIcon className="social-link text-white text-lg lg:text-3xl" />
+          <GitHubIcon className="social-link text-white text-sm lg:text-3xl" />
         </a>
       </div>
     </div>
