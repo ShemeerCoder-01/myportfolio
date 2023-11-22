@@ -16,18 +16,15 @@ function Footer() {
 
   return (
     <div className='footer flex justify-between items-center p-6 mt-96 mx-4 mb-1 rounded-xl'>
-      <h2 className="cursor-pointer text-xl font-semibold text-white" onClick={() => topFunction()}>
+      <h2 className="cursor-pointer text-lg lg:text-xl font-semibold text-white" onClick={() => topFunction()}>
         MyPortfolio<span>.</span>
       </h2>
       <div className="flex justify-end items-center gap-4">
         <a href="https://facebook.com">
           <FacebookIcon className="social-link text-white text-sm lg:text-3xl" />
         </a>
-        <a href="mailto:shameerbem@gmail.com">
+        <a href="mailto:shameerbem@gmail.com" className='hidden lg:block'>
           <EmailIcon className="social-link text-white text-sm lg:text-3xl" />
-        </a>
-        <a href="https://www.twitter.com">
-          <TwitterIcon className="social-link text-white text-sm lg:text-3xl" />
         </a>
         <a href="https://www.instagram.com">
           <InstagramIcon className="social-link text-white text-sm lg:text-3xl" />
