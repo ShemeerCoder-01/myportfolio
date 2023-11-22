@@ -10,7 +10,7 @@ function Skills() {
     <div className="flex flex-col items-center pt-10 mt-12">
       <h1 className="text-3xl font-bold mb-4">Skills</h1>
       <div className="flex flex-col items-start">
-        <h2 className="heading text-xl font-medium mt-6 pl-4">Languages & frameworks / Libraries :</h2>
+        <h2 className="heading text-lg lg:text-xl font:normal lg:font-medium mt-6 pl-4">Languages & frameworks / Libraries :</h2>
         <div className="flex flex-wrap justify-center gap-4">
           <div className="flex items-center gap-8 justify-around px-2 lg:px-4 my-2"> 
             <FaReact className="text-2xl lg:text-4xl m-2" />
@@ -44,10 +44,10 @@ function Skills() {
           </div>
         </div>
         <div className="flex items-center gap-12">
-        <h2 className="text-xl font-medium mt-6 lg:ml-52 pl-4">Developer Tools : </h2>
+        <h2 className="text-lg lg:text-xl font:normal lg:font-medium mt-6 lg:ml-52 pl-4">Developer Tools : </h2>
         <div className="dev-tools flex flex-wrap items-center mt-6 gap-8">
-          <FaGit className="text-4xl m-2"/>
-          <FaGithub className="text-4xl m-2"/>
+          <FaGit className=" text-2xl lg:text-4xl m-2"/>
+          <FaGithub className="text-2xl lg:text-4xl m-2"/>
         </div>
       </div>
       </div>
