@@ -22,7 +22,7 @@ module.exports = {
         navy:'var(--navy)',
         grey:'var(--grey)',
         darkgrey:'var(--darkgrey)',
-
+        darkblue:'var(--darkblue)'
       },
     },
   },
